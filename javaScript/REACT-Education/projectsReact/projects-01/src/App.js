@@ -19,7 +19,7 @@ const App = (props) => {
         <Route path="/Dialogs" component={Dialogs} />
         <Route path="/Profile" component={Profile} />
 
-      </div>
+      </div>           
     </BrowserRouter>
   )
 }  
