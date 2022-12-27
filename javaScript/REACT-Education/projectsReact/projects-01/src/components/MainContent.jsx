@@ -3,7 +3,7 @@ import React from 'react'
 const MainContent = (props) => {
     return (
         <div id="MainContent">
-            <img id="photoCity" src="https://wallpaperaccess.com/full/4709150.jpg" alt="background"></img>
+            <img id="photoCity" src="https://i.pinimg.com/564x/f0/4a/d8/f04ad8347e1105bbe35a87b835cb87d8.jpg" alt="background"></img>
             <img id="myPhoto" src="https://e1.pxfuel.com/desktop-wallpaper/1005/116/desktop-wallpaper-shouko-nishimiya-posted-by-michelle-walker-nishimiya-shouko-aesthetic.jpg"></img>
 
             <div id="myData">

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Profile = () => {
+let Profile = (props) => {
     return (
         <div>
-            <p>Profile</p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio odit officia tenetur tempore minima quisquam amet, ducimus porro at eveniet commodi possimus quas nobis praesentium dolor ipsum aut saepe corrupti
         </div>
     )
 }
