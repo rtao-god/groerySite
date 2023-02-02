@@ -5,11 +5,11 @@ function Navbar() {
     return (
         <div id='Navbar'>
             <ul id='navbarLink'>
-                <li> <NavLink to='/home'>      Home    </NavLink> </li>
-                <li> <NavLink to='/dialogs'> Messager  </NavLink> </li>
-                <li> <NavLink to='/home'>      News    </NavLink> </li>
-                <li> <NavLink to='/home'>      Music   </NavLink> </li>
-                <li> <NavLink to='/home'>     Settings </NavLink> </li>
+                <li> <NavLink to='/'>          Home   </NavLink> </li>
+                <li> <NavLink to='/dialogs'> Messager </NavLink> </li>
+                <li> <NavLink to='/news'>      News   </NavLink> </li>
+                <li> <NavLink to='/music'>     Music  </NavLink> </li>
+                <li> <NavLink to='/Settings'> Settings</NavLink> </li>
             </ul>
         </div>
     )

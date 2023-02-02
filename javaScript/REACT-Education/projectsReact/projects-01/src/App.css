@@ -7,7 +7,6 @@
 header {
   margin-bottom: 10px;
   background: url(https://i.pinimg.com/564x/b7/6b/ad/b76bad9cfc1b870cd9da11fe248f896b.jpg) left;
-
 }
 
 #photoLabel {
@@ -18,10 +17,9 @@ header {
 
 #Navbar {
   width: 20%;
-  height: 1000px;
+  height: 1500px;
   background: rgb(192 255 191 / 23%);
   float: left;
-  margin: 0;
   background-image: url(https://i.pinimg.com/564x/07/b1/5a/07b15a170456b7da647208e8011c64f9.jpg);
   background-position: top;
   margin-right: 10px;
@@ -35,7 +33,6 @@ header {
   flex-direction: column;
 }
 
-
 #navbarLink li a {
   color: #ffffff;
   text-decoration: none;
@@ -47,7 +44,7 @@ header {
 }
 
 #navbarLink a:hover {
-  color:rgb(248, 255, 108);
+  color: rgb(248, 255, 108);
   text-shadow: 1px 1px 20px rgb(255, 0, 0), 0 0 1em rgb(255, 255, 0);
 }
 
@@ -71,8 +68,23 @@ header {
 }
 
 #myData h2 {
-  Font-family: Multiround;
   margin-block-end: 0;
+}
+
+#getMessage textarea {
+  margin-top: 50px;
+  padding: 25px;
+  border: 1px solid #dcdcdc;
+  height: 17px;
+  max-width: 60%;
+}
+
+#getMessage button {
+  display: block;
+}
+
+#getMessage textarea:focus {
+  outline: 0;
 }
 
 .post {
@@ -82,9 +94,8 @@ header {
 }
 
 .post p {
-  margin-left: 40px;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin-left: 58px;
+  margin-bottom: 47px;
 }
 
 .post img {
@@ -107,37 +118,26 @@ header {
   cursor: pointer;
 }
 
-/*............................................DIALOGS............................................*/
+/*............................................DIALOGS_PAGE............................................*/
 
 #dialogs {
   display: flex;
+  width: 78%;
 }
 
-#name {
+/* #name {
   font-size: 25px;
   margin: 0;
 }
 
-#name li {
+#name li, a, p {
   margin-bottom: 50px;
-}
-
-#name a {
-  cursor: pointer;
   text-decoration: none;
-}
-
-#name p {
   margin-block-start: 0;
   margin-bottom: 40px;
 }
 
-#verticalLine {
-  border-left: 2px solid red;
-  margin: 0 70px 0 30px;
-}
-
-#allSmilies {
+#user img {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -145,6 +145,27 @@ header {
   height: 100px;
 }
 
-#allSmilies img {
+#messages li {
+  margin-top: 50px;
+  padding-bottom: 50px;
+} */
+
+#user img {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  height: 70px;
+}
+
+#user li, a, p {
+  text-decoration: none;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-bottom: 40px;
+}
+
+#verticalLine {
+  border-left: 2px solid red;
+  margin: 0 70px 0 30px;
 }
