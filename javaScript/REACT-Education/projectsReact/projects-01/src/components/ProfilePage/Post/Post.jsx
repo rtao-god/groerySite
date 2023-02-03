@@ -16,7 +16,7 @@ let Post = (props) => {
             </div>
 
             <p> {props.message} </p>
-
+ 
         </div>
     )
 }
