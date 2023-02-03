@@ -1,4 +1,4 @@
-import React, { createElement } from 'react'
+import React from 'react'
 import Post from './Post'
 import { addPostAction, textPostUpdateAction } from '../../redux/profileReducer'
 

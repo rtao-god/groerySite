@@ -7,10 +7,10 @@ let Post = (props) => {
     return (
         <div className='post'>
             <div>
-                <img src={photoAvatar} />
+                <img src={photoAvatar} alt="photoAvatar" />
 
                 <div className="likes">
-                    <img src={photoLike} />
+                    <img src={photoLike} alt="photoLike" />
                     {props.likeCount}
                 </div>
             </div>

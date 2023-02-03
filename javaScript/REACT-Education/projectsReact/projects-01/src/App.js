@@ -13,8 +13,8 @@ const App = (props) => {
       <Header />
       <Navbar />
       <Routes>
-        <Route path="/" element={<ProfilePage postsArrow={props.state.profilePage.postsArrow} dispatch={props.dispatch} />} />
-        <Route path="/dialogs" element={<DialogsPage userArrow={props.state.dialogsPage.userArrow} nameItem={props.state.dialogsPage.nameItem} dispatch={props.dispatch} />} />
+        <Route path="/react/javaScript/REACT-Education/projectsReact/projects-01/public/index.html/" element={<ProfilePage postsArrow={props.state.profilePage.postsArrow} dispatch={props.dispatch} />} />
+        <Route path="/react/javaScript/REACT-Education/projectsReact/projects-01/public/index.html/dialogs/" element={<DialogsPage userArrow={props.state.dialogsPage.userArrow} nameItem={props.state.dialogsPage.nameItem} dispatch={props.dispatch} />} />
       </Routes>
     </div>
   )

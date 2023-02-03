@@ -6,7 +6,7 @@ let User = (props) => {
 
     return (
         <div id="user">
-            <img src={photoAvatar} />
+            <img src={photoAvatar} alt="photoAvatar" />
             <p> {props.name} </p>
             <p> {props.message} </p>
         </div>
