@@ -16,7 +16,7 @@ const openMenu = (triggerSelector, targetSelector, closeSelector, activClass) =>
 
     target.classList.toggle(activClass)
 llol
-  })
+  }) 
 }
 
 const btn = document.querySelector('.btn-toggle')

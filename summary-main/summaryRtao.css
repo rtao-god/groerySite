@@ -12,7 +12,7 @@
   background-size: 100% 140%;
 }
 
-#sidebar {
+#sidebar { 
   position: absolute;
   background: #333;
   left: -1400px;
